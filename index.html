@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WL8B4VPRPM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-WL8B4VPRPM');
+  </script> 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Site</title>
@@ -25,11 +34,5 @@
 </head>
 <body>
   <h1>Escrevi e saí correndo, pau no cu de quem tá lendo</h1>
-  <script>
-    // Incrementar contador de visitas
-    fetch('https://api.countapi.xyz/hit/site_pega_bobo/bobos')
-      .then(response => response.json())
-      .then(data => console.log(`Visitas: ${data.value}`));
-  </script>
 </body>
 </html>
